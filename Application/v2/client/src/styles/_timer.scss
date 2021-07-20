@@ -1,0 +1,110 @@
+@import "./mixins";
+
+.timer{
+    @include background;
+    
+}
+
+.timer-icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+
+  }
+
+  .timer-wrapper {
+    padding: 25px;
+  
+}
+  
+  .timer_selector_container{
+    font-family: 'Montserrat', 'sans-serif';
+    display: flex;
+
+    margin-top:1rem;
+    justify-content: center;
+    
+  }
+
+  .clock_col{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    height: 7.5rem;
+    text-align: center;
+    position: relative;
+    font-size: 1.5rem;
+    width:5rem;
+    border-radius: 5px;
+    border: 2.5px solid #fff;
+
+  }
+  
+  .clock_handle{
+    pointer-events: none;
+    position: relative;
+    z-index: 1;
+    transition: all 0.2s cubic-bezier(0.09, 0.75, 0.4, 1.07);
+
+  }
+
+  .clock_numbers{
+    width: 100%;
+    outline: none;
+    z-index: 2;
+    border: none;
+    border-bottom: 2.5px solid #fff;
+    border-top: 2.5px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    
+
+  }
+
+  .infoBar{
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: #fff;
+      opacity: 70%;
+      color: black;
+      border-radius: 5px;
+  }
+
+  .agreement_purpos{
+      margin-top: 2rem;
+      width: 15rem;
+
+}
+
+  .purpose__label{
+    margin: 2rem;
+    margin-left: 0;
+    margin-bottom: 0;
+
+
+  }
+  .purpose__input{
+    width: 100%;
+    outline: none;
+    z-index: 2;
+    border: none;
+    border-bottom: 2.5px solid #fff;
+    background: transparent;
+    color: #fff;
+    margin-bottom: 1rem;
+
+
+  }
+
+ .timer__button{
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+    width: 18rem;
+    font-size:1.3rem;
+    background-color:#fff ;
+    border: 2.5px solid #fff;
+    border-radius: 5px;
+
+}
+

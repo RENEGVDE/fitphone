@@ -1,0 +1,117 @@
+@import "./mixins";
+
+.join {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    &__img {
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 400px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 30px !important;
+    }
+
+    &__description {
+        text-align: center;
+        margin-top: 4rem;
+    }
+}
+
+.join-wrapper {
+    padding: 25px;
+}
+.join-info-wrapper {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.join-info-wrapper .join__title {
+    font-size: 1rem;
+}
+
+.join_selector_container {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.join_selector_container .join__description {
+    margin-bottom: 4rem;
+}
+
+.join_selector_container .inputCode {
+    margin-top: 4rem;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    width: 15rem;
+}
+
+.join_selector_container .inputName {
+    border: none;
+    border-radius: 5px;
+    width: 15rem;
+}
+
+.join_selector_container .joinBtn {
+    color: #fff;
+    background-color: #79b5e2;
+    border: 5px solid #79b5e2;
+    border-radius: 25px;
+    margin: 0.5rem;
+}
+
+.join_selector_container .createBtn {
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #79b5e2;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 17rem;
+    font-size: 1.3rem;
+}
+.join_selector_container .infoBar {
+    margin-top: 1rem;
+    width: 17rem;
+    padding: 1rem;
+    background-color: #79b5e2;
+    opacity: 1;
+    color: black;
+    border-radius: 5px;
+}
+
+.labelTxt {
+    color: black;
+}
+
+.bottom-decoration-wrapper {
+    position: relative;
+    overflow: hidden;
+    bottom: 50vh;
+    left: 0;
+    right: 0;
+}
+
+.button-wrapper {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.infoBar {
+    width: 264px !important;
+    opacity: 1 !important;
+    align-self: center;
+}
+
+.show-room {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,27 @@
+.usersInfoBar{
+margin-bottom: 2rem;
+
+}
+.usersInfoBar p{
+    border-bottom: 0.1rem solid #fff;    
+}
+.users_container{
+    height:5rem;
+
+}
+
+.user_container{
+display: inline-block;
+flex-direction:row ;
+}
+
+
+.userPic{
+    width: 3rem;
+    margin: 0.5rem;
+    border-radius: 50%;;
+    background : rgba(255, 255, 255, 1);
+    opacity : 0.90;
+    filter: alpha(opacity=45) progid:DXImageTransform.Microsoft.Alpha(opacity=45) ;
+}
+

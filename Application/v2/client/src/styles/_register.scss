@@ -1,0 +1,59 @@
+@import "./mixins";
+
+.register {
+  @include background;
+
+  &__button {
+    width: 260px;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+
+  &__title {
+    font-size: 22px;
+  }
+  &__description {
+    color: #e8e8e8;
+  }
+}
+
+.register-wrapper {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-icons-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-info-wrapper {
+  padding: 40px;
+  text-align: center;
+}
+
+.bottom-decoration {
+  position: fixed;
+  bottom: -265px;
+  left: 0;
+  right: 0;
+  width: 104%;
+}
+
+.bottom-decoration-wrapper {
+  position: relative;
+  overflow: hidden;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.register-forum {
+  text-align: center;
+  .textbox-holder {
+    margin: 50px 0;
+  }
+}

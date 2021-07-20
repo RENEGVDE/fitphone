@@ -1,0 +1,75 @@
+.insightsImg {
+  border-radius: 50%;
+  width: 100px;
+  top: 40px;
+  //position: relative;
+  background-color: slategray;
+}
+
+.profile {
+  margin-top: 30px;
+  height: 20vh;
+}
+.profile_name {
+  padding-top: 10px;
+  font-size: 22px;
+  font-family: "Segoe UI Symbol";
+}
+
+.sum_box {
+  background: #58afdc;
+  box-shadow: 5px 5px 50px grey inset;
+  border-radius: 10px;
+  width: 80vw;
+  height: 12vh;
+  margin: 15px;
+  position: relative;
+}
+
+.sum_sessions {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 14px;
+  padding-left: 18px;
+}
+
+.sum_time {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 14px;
+  padding-right: 40px;
+}
+
+.sum_amount {
+  float: left;
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sum_title {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 14px;
+  color: white;
+
+  float: left;
+}
+
+.sum_label {
+  font-size: 10px;
+  float: left;
+}
+
+.graph {
+  width: 80vw;
+}
+
+.canvasjs-chart-canvas {
+  border-radius: 20px;
+}
+
+.canvasjs-chart-credit {
+  display: none;
+}

@@ -1,0 +1,61 @@
+/* .clock-outer{
+  font-family: 'Montserrat', 'sans-serif';
+  display: flex;
+  margin-top:1rem;
+}
+
+.clock-container{
+
+    background-color:#0096C7;
+    border-radius: 5px;
+    width:100%;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0px 5px 5px #0085CC, 0 5px 5px 5px #0085CC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock-col{
+    text-align: center;
+    position: relative;
+    padding: 0.5rem;
+
+
+}
+
+.clock-timer{
+    border: 0.1rem solid #ADE8F4;
+    color: #EDFAFD;
+    font-size: 1.5rem;
+    padding:0.5rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+.clock-handle{
+    border: 0.2rem solid #ADE8F4;
+    color: #EDFAFD;
+    font-size: 0.7rem;
+    padding:0.2rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+.clock-label{
+    color: #0077B6;
+    text-transform: uppercase;
+    font-size: .7rem;
+    margin-top:0.5rem;
+}
+
+.coma{
+    color: #0077B6;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top:0.5rem;
+} */
